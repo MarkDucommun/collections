@@ -1,7 +1,7 @@
 package io.ducommun.collections.nonEmptyList
 
 import io.ducommun.results.Result
-
+import java.io.Serializable
 
 interface NonEmptyList<type> : List<type>, Serializable {
 
