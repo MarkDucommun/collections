@@ -3,7 +3,7 @@ package io.ducommun.collections.nonEmptyList
 import io.ducommun.results.Result
 
 
-interface NonEmptyList<type> : List<type> {
+interface NonEmptyList<type> : List<type>, Serializable {
 
     val first: type
 
